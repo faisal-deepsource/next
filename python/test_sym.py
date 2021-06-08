@@ -4,8 +4,7 @@ def simplifable_if_statement(arg1, arg2):
     # Can be reduced to bool(arg1 and not arg2)
     if arg1 and not arg2: # [simplifiable-if-statement]
         return True
-    else:
-        return False
+    return False
 
 def test_simplifiable_if_expreseeion(arg):
     #  Can be replaced by bool(arg)
