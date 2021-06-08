@@ -53,7 +53,7 @@ def update_issues(k, d):
         value = 10
 
     another_result = result = ""
-    for number in fixed:
+    for number in [0, 1, 3, 5]:
         result += number
 
     k = all([r - 4 for r in result])
